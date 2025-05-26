@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="https://github.com/PetyoLazarov92/PetyoLazarov92/blob/assets/images/petyo-magic.svg" width="300" alt="Petyo animated logo" />
+</div>
+
 <h1 align="center">Hi 👋, I'm Petyo</h1>
 <h3 align="center">Accurate and responsible Full Stack Web Developer</h3>
 
