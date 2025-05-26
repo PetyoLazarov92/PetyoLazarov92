@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/PetyoLazarov92/PetyoLazarov92/blob/assets/images/petyo-magic.svg" width="300" alt="Petyo animated logo" />
+    <img src="https://github.com/PetyoLazarov92/PetyoLazarov92/blob/assets/images/petyo-magic.svg" width="400" alt="Petyo magical logo" />
 </div>
 
 <h1 align="center">Hi 👋, I'm Petyo</h1>
