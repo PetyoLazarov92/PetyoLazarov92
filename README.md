@@ -20,4 +20,8 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=petyolazarov92&show_icons=true&locale=en" alt="petyolazarov92" /></p>
 
-![Snake animation](https://github.com/petyolazarov92/petyolazarov92/blob/output/github-contribution-grid-snake.svg)
+<!-- Snake Animation -->
+<div align="center">
+    
+  ![snake gif](https://github.com/TechnologyHell/TechnologyHell/blob/output/github-snake-dark.svg)
+</div>
