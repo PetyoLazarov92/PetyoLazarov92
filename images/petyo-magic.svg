@@ -1,0 +1,91 @@
+<svg width="600" height="240" viewBox="0 0 600 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for magical arc -->
+    <linearGradient id="arcGradient" x1="180" y1="150" x2="420" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="gold" stop-opacity="0" />
+      <stop offset="30%" stop-color="gold" stop-opacity="0.4" />
+      <stop offset="60%" stop-color="gold" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="gold" stop-opacity="1" />
+    </linearGradient>
+
+    <!-- Path for star animation -->
+    <path id="arcPath" d="M 180 150 C 240 100, 360 100, 420 150" fill="none" />
+  </defs>
+
+  <style>
+    .text {
+      font-family: 'Courier New', monospace;
+      font-size: 56px;
+      fill: none;
+      stroke: #00FFCC;
+      stroke-width: 1.5;
+      stroke-dasharray: 400;
+      stroke-dashoffset: 400;
+      animation: draw 4s ease forwards, glow 2s infinite alternate;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes glow {
+      0% {
+        stroke: #00FFCC;
+        filter: drop-shadow(0 0 2px #00FFCC);
+      }
+      100% {
+        stroke: #00FFFF;
+        filter: drop-shadow(0 0 8px #00FFFF);
+      }
+    }
+
+    .arc-path {
+      fill: none;
+      stroke: url(#arcGradient);
+      stroke-width: 3;
+      stroke-dasharray: 500;
+      stroke-dashoffset: 500;
+      animation: arcDraw 3s ease-out 1s forwards;
+    }
+
+    @keyframes arcDraw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .star {
+      fill: gold;
+      filter: drop-shadow(0 0 6px gold);
+      offset-path: path("M 180 150 C 240 100, 360 100, 420 150");
+      offset-distance: 0%;
+      animation: followArc 3s ease-out 1s forwards, sparkle 2s ease-in-out infinite;
+    }
+
+    @keyframes followArc {
+      to {
+        offset-distance: 100%;
+      }
+    }
+
+    @keyframes sparkle {
+      0%, 100% {
+        transform: scale(1) rotate(0deg);
+      }
+      50% {
+        transform: scale(1.4) rotate(45deg);
+      }
+    }
+  </style>
+
+  <!-- Magical arc -->
+  <path class="arc-path" d="M 180 150 C 240 100, 360 100, 420 150" />
+
+  <!-- Moving star -->
+  <polygon class="star" points="0,-8 2,-2 8,-2 3,1 5,7 0,3 -5,7 -3,1 -8,-2 -2,-2" />
+
+  <!-- Centered name -->
+  <text x="50%" y="210" class="text" dominant-baseline="middle" text-anchor="middle">Petyo</text>
+</svg>
