@@ -23,5 +23,5 @@
 <!-- Snake Animation -->
 <div align="center">
     
-  ![snake gif](https://github.com/TechnologyHell/TechnologyHell/blob/output/github-snake-dark.svg)
+  ![snake gif](https://github.com/petyolazarov92/petyolazarov92/blob/output/github-snake-dark.svg)
 </div>
