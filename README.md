@@ -24,7 +24,7 @@
 
 <div align="center">
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=petyolazarov92&show_icons=true&locale=en&theme=dark" alt="petyolazarov92" /></p>
+<p>&nbsp;<img align="center" src="https://github-stats-extended.vercel.app/api?username=petyolazarov92&show_icons=true&locale=en&theme=dark" alt="petyolazarov92" /></p>
 </div>
 
 <!-- Snake Animation -->
